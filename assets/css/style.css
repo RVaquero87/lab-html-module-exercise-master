@@ -180,7 +180,8 @@ header form{
 header form input{
   background: rgba(31, 82, 111, 1);
   display: inline-block;
-  width: 96%;
+  width: 95%;
+  padding-left: 1%;
   border: none;
   box-shadow: 0px 0px 2px rgba(155,155,155, .9);
   vertical-align: middle;
@@ -204,7 +205,7 @@ header .header-login{
   font-size: .75em;
   line-height: 1;
   vertical-align: middle;
-  width: 10%;
+  width: 11%;
 }
 header .header-login:after{
   content:'';
@@ -224,7 +225,6 @@ header .header-content{
   display: block;
   padding: 85px 0 90px;
   text-align: left;
-  width: 100%;
 }
 header .header-content h1{
   width: 50%;
@@ -313,3 +313,266 @@ header .header-content a{
   text-decoration: none;
 }
 /* end npm options */
+
+
+/* media query */
+@media only screen and (max-width: 1200px) {
+    
+  /* common */
+  /* end common */
+
+  /* header */
+  header form input{
+    width: 94%;
+  }
+  /* end header */
+
+  /* npm def */
+  .npm-def {
+      padding: 80px 0 200px;
+  }
+  /* end npm def */
+
+  /* npm options */
+  /* end npm options */
+
+}
+
+@media only screen and (max-width: 1024px) {
+ 
+  /* common */
+  .container{
+    width: 98%;
+  }
+  /* end common */
+
+  /* header */
+  header{
+    background-size: 110%;
+  }
+  /* end header */
+
+  /* npm def */
+  .npm-def {
+      padding: 80px 0 140px;
+  }
+  /* end npm def */
+}
+
+@media only screen and (max-width: 960px) {
+
+  /* common */
+  .container{
+    width: 96%;
+  }
+  .col-3 .col-3-item {
+    margin-right: 5%;
+    width: 29%;
+  }
+  /* end common */
+
+  /* nav */
+  .nav-left .heart{
+    margin: 0 12px 0 10px;
+  }
+  .nav-links li{
+    margin-right: 12px;
+  }
+  /* end nav */
+
+  /* header */
+  header{
+    background-position: center;
+    background-size: 145%;
+  }
+  .header-logo{
+    width: 10%;
+  }
+  header form{
+    width: 74%;
+  }
+  header form input {
+    width: 92%;
+  }
+  header .header-login{
+    width: 14%;
+  }
+  header .header-content{
+    padding: 50px 0 60px;
+  }
+  header .header-content h1{
+    width: 60%;
+  }
+  header .header-content p{
+    width: 60%;
+  }
+  /* end header */
+
+  /* npm def */
+  .npm-def {
+    padding: 60px 0 90px;
+  }
+  /* end npm def */
+
+}
+
+@media only screen and (max-width: 767px) {
+  
+  /* common */
+  .container{
+    width: 95%;
+  }
+  .col-2 .col-2-inner .col-2-content,
+  .col-2 .col-2-inner .col-2-img{
+    margin: 0;
+    width: 100%;
+  }
+  .col-2 .col-2-inner .col-2-content{
+    margin-bottom: 30px;
+  }
+  .col-3 .col-3-item {
+    margin-right: 2%;
+      width: 32%;
+  }
+  h1{
+    font-size: 2.2em;
+  }
+  h2{
+    font-size: 1.8em;
+  }
+  /* end common */
+
+  /* nav */
+  .nav-left{
+    text-align: center;
+    padding-right: 15px;
+    width: 100%;
+  }
+  .nav-links{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .nav-links li{
+    margin: 0 8px;
+  }
+  /* end nav */
+
+  /* header */
+  header{
+    background: rgb(36, 89, 120);
+  }
+  .header-logo {
+      width: 15%;
+  }
+  header form {
+      width: 84%;
+  }
+  header form input {
+    width: 90%;
+  }
+  header .header-login {
+    display: block;
+    padding: 10px 7px 0 0;
+    text-align: right;
+    width: 100%;
+  }
+  header .header-content h1{
+    width: 100%;
+  }
+  header .header-content p{
+    width: 100%;
+  }
+  /* end header */
+
+  /* npm list */
+  .npm-list{
+    padding: 60px 0 30px;
+  }
+  .npm-list img{
+    margin: 0 auto;
+    max-width: 420px;
+  }
+  /* end npm list */
+
+  /* npm def */
+  .npm-def {
+    padding: 60px 0 50px;
+  }
+  .npm-def .npm-def-inner .npm-def-content {
+    width: 50%;
+  }
+  /* end npm def */
+
+  /* npm options */
+  .npm-options .npm-options-title{
+    font-size: 1.2em;
+  }
+  /* end npm options */
+
+}
+
+@media only screen and (max-width: 480px) { 
+  
+  /* common */
+  .col-3 .col-3-item {
+    margin: 0 0 30px;
+    max-width: 240px;
+    width: 100%;
+  }
+  h1{
+    font-size: 1.8em;
+  }
+  h2{
+    font-size: 1.6em;
+    margin-bottom: 25px;
+  }
+  /* end common */
+
+  /* nav */
+  .nav-links li {
+      margin: 9px 8px 0;
+  }
+  /* end nav */
+
+  /* header */
+  .header-logo {
+    width: 20%;
+  }
+  header form {
+    width: 78%;
+  }
+  header form input {
+    width: 83%;
+  }
+  header .header-content {
+    padding: 30px 0 40px;
+  }
+  header .header-content h1 {
+    margin-bottom: 15px;
+  }
+  header .header-content p {
+    margin-bottom: 30px;
+  }
+  /* end header */
+
+  /* npm list */
+  .npm-def{
+    background: #2481b7;
+    padding: 40px 0;
+  }
+  .npm-def .npm-def-inner .npm-def-content {
+    width: 100%;
+  }
+  /* end npm list */
+
+  /* npm options */
+  .npm-options {
+    padding: 35px 0;
+  }
+  .npm-options-box {
+    margin-top: 30px;
+  }
+  /* end npm options */
+
+}
